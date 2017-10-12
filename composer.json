@@ -36,5 +36,13 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
+    },
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rasulian\ZarinPal\ZarinPalServiceProvider"
+            ]
+        }
     }
 }
